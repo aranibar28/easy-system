@@ -5937,11 +5937,11 @@ CREATE TABLE `producto` (
 -- Volcado de datos para la tabla `producto`
 --
 
-INSERT INTO `producto` (`idproducto`, `codigo_interno`, `codigo_fabrica`, `codigo_afectacion`,`codigo_barra`, `nombre_producto`, `precio_compra`, `precio_venta`, `precio_venta_mayoreo`, `precio_venta_3`, `stock`, `stock_min`, `idcategoria`, `idmarca`, `idpresentacion`, `estado`, `exento`, `inventariable`, `perecedero`, `imagen`) VALUES
-(1, 'PR00000001', '', '','','JORDANN', '45.00', '67.00', '89.00', '90.00', '62.00', '2.00', 1, 1, 1, 1, 0, 1, 0, ''),
-(2, 'PR00000002', '','','', 'LANGERS', '3.80', '7.00', '8.00', '10.00', '16.00', '5.00', 1, NULL, 1, 1, 0, 1, 0, ''),
-(3, 'PR00000003', '','','', 'ORGANIZADOR DE NEVERA', '2.50', '5.00', '9.00', '7.00', '100.00', '2.00', 3, 2, 1, 1, 0, 1, 0, ''),
-(4, 'PR00000004', '','','', 'TAPER MULTIUSO', '4.50', '8.00', '10.00', '12.00', '138.00', '3.00', 3, 2, 1, 1, 0, 1, 0, '');
+INSERT INTO `producto` (`idproducto`, `codigo_interno`, `codigo_barra`, `nombre_producto`, `precio_compra`, `precio_venta`, `precio_venta_mayoreo`, `precio_venta_3`, `stock`, `stock_min`, `idcategoria`, `idmarca`, `idpresentacion`, `estado`, `exento`, `inventariable`, `perecedero`, `imagen`) VALUES
+(1, 'PR00000001', '', 'JORDANN', '45.00', '67.00', '89.00', '90.00', '62.00', '2.00', 1, 1, 1, 1, 0, 1, 0, ''),
+(2, 'PR00000002', '', 'LANGERS', '3.80', '7.00', '8.00', '10.00', '16.00', '5.00', 1, NULL, 1, 1, 0, 1, 0, ''),
+(3, 'PR00000003', '', 'ORGANIZADOR DE NEVERA', '2.50', '5.00', '9.00', '7.00', '100.00', '2.00', 3, 2, 1, 1, 0, 1, 0, ''),
+(4, 'PR00000004', '', 'TAPER MULTIUSO', '4.50', '8.00', '10.00', '12.00', '138.00', '3.00', 3, 2, 1, 1, 0, 1, 0, '');
 
 --
 -- Disparadores `producto`
