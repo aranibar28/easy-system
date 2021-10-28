@@ -351,14 +351,14 @@ $objProducto = new Producto();
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-sm-6">
                                 <label>Código Producto</label>
                                 <input type="text" id="txtCodigo" name="txtCodigo" placeholder="AUTOGENERADO"
                                        class="form-control" style="text-transform:uppercase;"
                                        onkeyup="javascript:this.value = this.value.toUpperCase();" readonly="" disabled="disabled">
                             </div>
 
-                            <div class="col-sm-3">
+                            <div class="col-sm-6">
                                 <label>Código Barra</label>
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="icon-barcode2"></i></span>
@@ -367,24 +367,6 @@ $objProducto = new Producto();
                                            onkeyup="javascript:this.value = this.value.toUpperCase();">
                                 </div>
                             </div>
-                            <!-- INICIO: SE AGREGO INPUT CODIGO FABRICA Y AFECTACION -->
-                            <div class="col-sm-3">
-                                <label>Código Fabrica</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="icon-barcode2"></i></span>
-                                    <input type="text" id="txtCodigoFabrica" name="txtCodigoFabrica" placeholder="CF000001"
-                                    class="form-control">
-                                </div>
-                            </div>
-                             <div class="col-sm-3">
-                                <label>Código Afectacion</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="icon-barcode2"></i></span>
-                                    <input type="text" id="txtCodigoAfectacion" name="txtCodigoAfectacion" placeholder="CA000001"
-                                    class="form-control">
-                                </div>
-                            </div>
-                            <!-- FIN: SE AGREGO INPUT CODIGO FABRICA Y AFECTACION -->
                         </div>
                     </div>
 
