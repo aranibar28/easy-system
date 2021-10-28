@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VoidedDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <ext:UBLExtensions>
+               <ext:UBLExtension>
+                   <ext:ExtensionContent><ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>u7OVX+91JM3ESZEjA8LMCEX5/8c=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>s/yL/KdOIv7W5XXOL1M2Bv1yZBGvAUbjGOtHe4gMNyCFAdmPqY1Xn0Xyrqb41bgMU9KqTc1/4DdCOJBjI8RRRani4sYSOP07WX0rZkGBMTUUNNKM6guDSKcpam1GtXE9L/azxOphKExl9u96LmbZeLA13k4y4frvee3KxI3em6F6yQs/Rqznbaqjm7D9yuDcmdy1gbeYBMhwAvCiPjRfDyQiUdinVUo/0fyS9VuylRVsOgZU7hMmIJVJOhmksgGW9KmTXDZAKocBFEu51fK2PDcmMZQP0d64aHEvftkF67dfHw9AYIKajkiVFQj42vo+zR9IOHMKka3o3UXRDTERqw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIE+DCCA+CgAwIBAgIJALIlnqLtL0V/MA0GCSqGSIb3DQEBBQUAMIIBDTEbMBkGCgmSJomT8ixkARkWC0xMQU1BLlBFIFNBMQswCQYDVQQGEwJQRTENMAsGA1UECAwETElNQTENMAsGA1UEBwwETElNQTEYMBYGA1UECgwPVFUgRU1QUkVTQSBTLkEuMUUwQwYDVQQLDDxETkkgOTk5OTk5OSBSVUMgMjAxMjM0NTY3ODkgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xRDBCBgNVBAMMO05PTUJSRSBSRVBSRVNFTlRBTlRFIExFR0FMIC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMRwwGgYJKoZIhvcNAQkBFg1kZW1vQGxsYW1hLnBlMB4XDTIxMDcyMjAwMzAxNloXDTIzMDcyMjAwMzAxNlowggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAyMDEyMzQ1Njc4OSAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCbDuaRqWt20xQueSxX3Li0VmnkS3rKS+MmjuDiY1mKsvnKNKcHz3jQRK6nOf7sWQaU/SABdKombZeYKYAUOw6APWEa5WoHHMkUn7KvBkTqIbe6lLri7mtCvx8sgeK/zj8C2lT/zH9q4cfzZci5AyOiRUqGL5C35ZZo2MYI2K68z+TDJrxxnXr9ufXN/j3rq86ewWo2WzJWEsFzp9Yv+8I2O1bBJ+JPvvQ8xD/YtCV9FG9StD7cGII9GktOMaoophg35ByzInKeGO6SHjIpsfJ29qDyGNsOzQsCNNU6XuvEmdJZoDznYlt5INNDkq231V0RE+xmayxJQZT1yQfi3NVAgMBAAGjVzBVMB0GA1UdDgQWBBST6PdbACUxS6VNA6YXylLuvbAjVDAfBgNVHSMEGDAWgBST6PdbACUxS6VNA6YXylLuvbAjVDATBgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0BAQUFAAOCAQEAElysN4c0fmqGpaF+sXSXXDo1GyxX5kRL9rumxfvvfx8OTx4cXOlxzKV9bvWYMQAssEKltyZAcTmeneuaq/0mAvctXPyCE9CQj2o1w+AOT7MK46fJOxCw0hWu/LriTtnkBQB70pZQl4o4YQQWsNLpukciQTjZdZAemxVH4skpR3BnW5llzlXLC6NYBvxrt5MbsDJFyNoUnMhvXt88m/3u2+XS6xM1loISNaX5JXFtlAf8v8yYhBzktNvrOxrvc+UnfVMmC0Su86P2QLcAdGeTuHpFQ2VR/fd0hmbSEVmCvoy9Q/Iw4WybETm9RI5osU60XeSyU3bBRmpdQ1bgu+WT1A==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+               </ext:UBLExtension>
+           </ext:UBLExtensions>
+           <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+           <cbc:CustomizationID>1.0</cbc:CustomizationID>
+           <cbc:ID>RA-20210811-1</cbc:ID>
+           <cbc:ReferenceDate>2021-08-11</cbc:ReferenceDate>
+           <cbc:IssueDate>2021-08-11</cbc:IssueDate>
+           <cac:Signature>
+               <cbc:ID>RA-20210811-1</cbc:ID>
+               <cac:SignatoryParty>
+                   <cac:PartyIdentification>
+                       <cbc:ID>20123456789</cbc:ID>
+                   </cac:PartyIdentification>
+                   <cac:PartyName>
+                       <cbc:Name><![CDATA[EMPRESA EMISORA S.A.]]></cbc:Name>
+                   </cac:PartyName>
+               </cac:SignatoryParty>
+               <cac:DigitalSignatureAttachment>
+                   <cac:ExternalReference>
+                       <cbc:URI>RA-20210811-1</cbc:URI>
+                   </cac:ExternalReference>
+               </cac:DigitalSignatureAttachment>
+           </cac:Signature>
+           <cac:AccountingSupplierParty>
+               <cbc:CustomerAssignedAccountID>20123456789</cbc:CustomerAssignedAccountID>
+               <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+               <cac:Party>
+                   <cac:PartyLegalEntity>
+                       <cbc:RegistrationName><![CDATA[EMPRESA EMISORA S.A.]]></cbc:RegistrationName>
+                   </cac:PartyLegalEntity>
+               </cac:Party>
+           </cac:AccountingSupplierParty><sac:VoidedDocumentsLine>
+                  <cbc:LineID>1</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>35597</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                  <cbc:LineID>2</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>21305</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                  <cbc:LineID>3</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>31212</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                  <cbc:LineID>4</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>38995</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                  <cbc:LineID>5</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>36676</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                  <cbc:LineID>6</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>40613</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                  <cbc:LineID>7</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>28608</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                  <cbc:LineID>8</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>45420</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                  <cbc:LineID>9</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>42135</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                  <cbc:LineID>10</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                  <sac:DocumentNumberID>33394</sac:DocumentNumberID>
+                  <sac:VoidReasonDescription><![CDATA[ERROR EN EL DOCUMENTO]]></sac:VoidReasonDescription>
+              </sac:VoidedDocumentsLine></VoidedDocuments>

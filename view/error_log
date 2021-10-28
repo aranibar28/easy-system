@@ -1,0 +1,14 @@
+[09-Aug-2020 22:23:05 America/Chicago] PHP Fatal error:  Class 'Categoria' not found in /home2/tresnivel/inventario.tresniveles.com/view/categoria.vw.php on line 3
+[09-Aug-2020 22:23:05 America/Chicago] PHP Fatal error:  Class 'Categoria' not found in /home2/tresnivel/inventario.tresniveles.com/view/categoria.vw.php on line 3
+[09-Aug-2020 22:23:06 America/Chicago] PHP Fatal error:  Class 'Categoria' not found in /home2/tresnivel/inventario.tresniveles.com/view/categoria.vw.php on line 3
+[09-Aug-2020 22:35:05 America/Chicago] PHP Fatal error:  Class 'Producto' not found in /home2/tresnivel/inventario.tresniveles.com/view/pos-a.vw.php on line 3
+[09-Aug-2020 22:35:39 America/Chicago] PHP Fatal error:  Class 'Caja' not found in /home2/tresnivel/inventario.tresniveles.com/view/caja.vw.php on line 3
+[11-Aug-2020 14:16:54 America/Chicago] PHP Fatal error:  Class 'Cliente' not found in /home2/tresnivel/inventario.tresniveles.com/view/cliente.vw.php on line 3
+[10-Sep-2020 13:51:08 America/Chicago] PHP Fatal error:  Class 'Marca' not found in /home2/tresnivel/inventario.tresniveles.com/view/marca.vw.php on line 3
+[10-Sep-2020 13:51:35 America/Chicago] PHP Fatal error:  Class 'Venta' not found in /home2/tresnivel/inventario.tresniveles.com/view/apartadodiario.vw.php on line 3
+[10-Sep-2020 13:52:43 America/Chicago] PHP Fatal error:  Class 'Producto' not found in /home2/tresnivel/inventario.tresniveles.com/view/pos-a.vw.php on line 3
+[10-Sep-2020 13:54:03 America/Chicago] PHP Fatal error:  Class 'Tecnico' not found in /home2/tresnivel/inventario.tresniveles.com/view/tecnicos.vw.php on line 3
+[10-Sep-2020 13:54:07 America/Chicago] PHP Fatal error:  Class 'Inventario' not found in /home2/tresnivel/inventario.tresniveles.com/view/kardex.vw.php on line 3
+[10-Sep-2020 13:54:13 America/Chicago] PHP Fatal error:  Class 'Caja' not found in /home2/tresnivel/inventario.tresniveles.com/view/caja.vw.php on line 3
+[10-Sep-2020 13:54:16 America/Chicago] PHP Fatal error:  Class 'Proveedor' not found in /home2/tresnivel/inventario.tresniveles.com/view/proveedor.vw.php on line 3
+[11-Sep-2020 21:59:12 America/Chicago] PHP Fatal error:  Class 'Compra' not found in /home2/tresnivel/inventario.tresniveles.com/view/historico.vw.php on line 3

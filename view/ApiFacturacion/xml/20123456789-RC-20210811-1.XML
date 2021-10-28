@@ -1,0 +1,2137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SummaryDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+           <ext:UBLExtensions>
+               <ext:UBLExtension>
+                   <ext:ExtensionContent><ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>7TpbB5drxTVRfbQWhqd+Bo7v4I8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>foz5nSbH8joZNtSmY790nb6zZNpbMZSJOTJ5uOCrOxPq1Al6ZF5Z4VPk8VikA+CZUBYGexqCh2/9r1Y1Tw+yz6w0fPs3lZVM/L7Kd+vVifORq+R1533trBshKFtwHsb3okJ3LH3i+S0qvr+dyUGn2161GTWLmsf5sulEhwqOM/uHgrYwn85WMvZKDPKW36wY9dZ7x2kukX1Ys/Taclr/tB78tjORZG6EYnj83nM9BxwRYgoDfsEYlQUn3qKjxyROcq+Y/4F42JjFmCOE3jXTJjiu0jwD7xpGTht7MpPrzeBV+f/q88TpMRPykdyBEaOQU9hMSmR/AbxYo6328lC8qw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIE+DCCA+CgAwIBAgIJALIlnqLtL0V/MA0GCSqGSIb3DQEBBQUAMIIBDTEbMBkGCgmSJomT8ixkARkWC0xMQU1BLlBFIFNBMQswCQYDVQQGEwJQRTENMAsGA1UECAwETElNQTENMAsGA1UEBwwETElNQTEYMBYGA1UECgwPVFUgRU1QUkVTQSBTLkEuMUUwQwYDVQQLDDxETkkgOTk5OTk5OSBSVUMgMjAxMjM0NTY3ODkgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xRDBCBgNVBAMMO05PTUJSRSBSRVBSRVNFTlRBTlRFIExFR0FMIC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMRwwGgYJKoZIhvcNAQkBFg1kZW1vQGxsYW1hLnBlMB4XDTIxMDcyMjAwMzAxNloXDTIzMDcyMjAwMzAxNlowggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAyMDEyMzQ1Njc4OSAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCbDuaRqWt20xQueSxX3Li0VmnkS3rKS+MmjuDiY1mKsvnKNKcHz3jQRK6nOf7sWQaU/SABdKombZeYKYAUOw6APWEa5WoHHMkUn7KvBkTqIbe6lLri7mtCvx8sgeK/zj8C2lT/zH9q4cfzZci5AyOiRUqGL5C35ZZo2MYI2K68z+TDJrxxnXr9ufXN/j3rq86ewWo2WzJWEsFzp9Yv+8I2O1bBJ+JPvvQ8xD/YtCV9FG9StD7cGII9GktOMaoophg35ByzInKeGO6SHjIpsfJ29qDyGNsOzQsCNNU6XuvEmdJZoDznYlt5INNDkq231V0RE+xmayxJQZT1yQfi3NVAgMBAAGjVzBVMB0GA1UdDgQWBBST6PdbACUxS6VNA6YXylLuvbAjVDAfBgNVHSMEGDAWgBST6PdbACUxS6VNA6YXylLuvbAjVDATBgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0BAQUFAAOCAQEAElysN4c0fmqGpaF+sXSXXDo1GyxX5kRL9rumxfvvfx8OTx4cXOlxzKV9bvWYMQAssEKltyZAcTmeneuaq/0mAvctXPyCE9CQj2o1w+AOT7MK46fJOxCw0hWu/LriTtnkBQB70pZQl4o4YQQWsNLpukciQTjZdZAemxVH4skpR3BnW5llzlXLC6NYBvxrt5MbsDJFyNoUnMhvXt88m/3u2+XS6xM1loISNaX5JXFtlAf8v8yYhBzktNvrOxrvc+UnfVMmC0Su86P2QLcAdGeTuHpFQ2VR/fd0hmbSEVmCvoy9Q/Iw4WybETm9RI5osU60XeSyU3bBRmpdQ1bgu+WT1A==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+               </ext:UBLExtension>
+           </ext:UBLExtensions>
+           <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+           <cbc:CustomizationID>1.1</cbc:CustomizationID>
+           <cbc:ID>RC-20210811-1</cbc:ID>
+           <cbc:ReferenceDate>2021-08-11</cbc:ReferenceDate>
+           <cbc:IssueDate>2021-08-11</cbc:IssueDate>
+           <cac:Signature>
+               <cbc:ID>RC-20210811-1</cbc:ID>
+               <cac:SignatoryParty>
+                   <cac:PartyIdentification>
+                       <cbc:ID>20123456789</cbc:ID>
+                   </cac:PartyIdentification>
+                   <cac:PartyName>
+                       <cbc:Name><![CDATA[EMPRESA EMISORA S.A.]]></cbc:Name>
+                   </cac:PartyName>
+               </cac:SignatoryParty>
+               <cac:DigitalSignatureAttachment>
+                   <cac:ExternalReference>
+                       <cbc:URI>RC-20210811-1</cbc:URI>
+                   </cac:ExternalReference>
+               </cac:DigitalSignatureAttachment>
+           </cac:Signature>
+           <cac:AccountingSupplierParty>
+               <cbc:CustomerAssignedAccountID>20123456789</cbc:CustomerAssignedAccountID>
+               <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+               <cac:Party>
+                   <cac:PartyLegalEntity>
+                       <cbc:RegistrationName><![CDATA[EMPRESA EMISORA S.A.]]></cbc:RegistrationName>
+                   </cac:PartyLegalEntity>
+               </cac:Party>
+           </cac:AccountingSupplierParty><sac:SummaryDocumentsLine>
+                  <cbc:LineID>1</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-56933</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">486</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">411.86</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">74.14</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">74.14</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>2</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-29705</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">197</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">166.95</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">30.05</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">30.05</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>3</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-52725</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">568</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">481.36</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">86.64</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">86.64</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>4</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B005-326733</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">101</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">85.59</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">15.41</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">15.41</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>5</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B003-231935</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">194</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">164.41</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">29.59</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">29.59</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>6</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-22011</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">451</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">382.2</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">68.8</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">68.8</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>7</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-39566</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">374</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">316.95</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">57.05</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">57.05</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>8</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-80570</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">592</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">501.69</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">90.31</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">90.31</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>9</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-109645</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">405</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">343.22</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">61.78</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">61.78</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>10</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-81796</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">437</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">370.34</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">66.66</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">66.66</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>11</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-225884</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">543</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">460.17</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">82.83</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">82.83</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>12</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-89751</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">303</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">256.78</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">46.22</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">46.22</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>13</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-379953</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">296</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">250.85</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">45.15</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">45.15</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>14</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B006-308115</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">144</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">122.03</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">21.97</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">21.97</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>15</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B006-391967</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">405</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">343.22</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">61.78</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">61.78</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>16</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-74815</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">490</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">415.25</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">74.75</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">74.75</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>17</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B003-361461</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">445</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">377.12</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">67.88</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">67.88</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>18</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B005-362853</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">378</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">320.34</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">57.66</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">57.66</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>19</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-395780</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">379</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">321.19</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">57.81</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">57.81</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>20</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B009-268971</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">149</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">126.27</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">22.73</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">22.73</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>21</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B003-371299</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">252</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">213.56</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">38.44</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">38.44</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>22</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B005-366994</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">446</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">377.97</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">68.03</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">68.03</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>23</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-166389</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">117</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">99.15</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">17.85</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">17.85</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>24</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-303641</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">354</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">300</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">54</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">54</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>25</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B009-224944</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">489</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">414.41</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">74.59</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">74.59</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>26</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-67472</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">180</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">152.54</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">27.46</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">27.46</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>27</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-351496</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">109</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">92.37</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">16.63</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">16.63</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>28</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B003-189002</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">538</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">455.93</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">82.07</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">82.07</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>29</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-300129</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">158</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">133.9</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">24.1</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">24.1</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>30</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-344477</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">205</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">173.73</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">31.27</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">31.27</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>31</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-128706</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">307</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">260.17</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">46.83</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">46.83</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>32</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-62448</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">211</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">178.81</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">32.19</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">32.19</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>33</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-176423</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">272</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">230.51</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">41.49</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">41.49</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>34</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-330513</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">252</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">213.56</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">38.44</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">38.44</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>35</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-32029</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">287</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">243.22</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">43.78</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">43.78</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>36</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-235498</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">163</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">138.14</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">24.86</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">24.86</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>37</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-64492</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">335</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">283.9</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">51.1</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">51.1</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>38</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-171865</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">561</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">475.42</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">85.58</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">85.58</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>39</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-176372</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">342</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">289.83</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">52.17</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">52.17</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>40</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B009-105954</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">139</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">117.8</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">21.2</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">21.2</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>41</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B003-158141</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">587</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">497.46</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">89.54</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">89.54</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>42</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-305596</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">499</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">422.88</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">76.12</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">76.12</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>43</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-388687</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">407</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">344.92</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">62.08</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">62.08</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>44</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-235079</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">218</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">184.75</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">33.25</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">33.25</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>45</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B003-214408</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">599</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">507.63</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">91.37</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">91.37</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>46</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B006-198887</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">115</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">97.46</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">17.54</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">17.54</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>47</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-140371</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">547</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">463.56</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">83.44</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">83.44</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>48</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-23167</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">167</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">141.53</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">25.47</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">25.47</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>49</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B009-55437</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">550</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">466.1</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">83.9</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">83.9</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>50</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-140184</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">377</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">319.49</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">57.51</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">57.51</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>51</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-258335</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">313</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">265.25</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">47.75</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">47.75</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>52</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-351725</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">196</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">166.1</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">29.9</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">29.9</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>53</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-69737</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">564</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">477.97</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">86.03</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">86.03</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>54</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B003-387545</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">410</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">347.46</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">62.54</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">62.54</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>55</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-312333</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">440</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">372.88</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">67.12</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">67.12</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>56</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-293157</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">240</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">203.39</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">36.61</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">36.61</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>57</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-107133</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">557</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">472.03</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">84.97</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">84.97</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>58</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-349136</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">341</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">288.98</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">52.02</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">52.02</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>59</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-217447</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">217</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">183.9</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">33.1</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">33.1</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>60</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-147508</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">137</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">116.1</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">20.9</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">20.9</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>61</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B005-260783</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">111</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">94.07</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">16.93</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">16.93</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>62</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B005-106318</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">222</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">188.14</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">33.86</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">33.86</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>63</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-155807</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">439</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">372.03</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">66.97</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">66.97</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>64</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-271339</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">454</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">384.75</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">69.25</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">69.25</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>65</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B005-22822</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">412</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">349.15</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">62.85</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">62.85</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>66</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-312008</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">256</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">216.95</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">39.05</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">39.05</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>67</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-221343</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">474</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">401.69</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">72.31</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">72.31</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>68</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-119051</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">159</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">134.75</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">24.25</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">24.25</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>69</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-217049</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">205</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">173.73</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">31.27</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">31.27</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>70</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-10344</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">543</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">460.17</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">82.83</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">82.83</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>71</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B009-64395</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">509</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">431.36</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">77.64</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">77.64</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>72</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-52655</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">287</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">243.22</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">43.78</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">43.78</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>73</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B006-195459</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">582</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">493.22</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">88.78</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">88.78</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>74</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-254362</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">443</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">375.42</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">67.58</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">67.58</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>75</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-331494</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">528</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">447.46</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">80.54</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">80.54</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>76</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-210813</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">230</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">194.92</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">35.08</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">35.08</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>77</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-14064</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">429</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">363.56</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">65.44</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">65.44</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>78</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-9592</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">186</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">157.63</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">28.37</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">28.37</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>79</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B009-278053</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">390</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">330.51</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">59.49</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">59.49</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>80</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B006-348605</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">274</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">232.2</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">41.8</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">41.8</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>81</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B003-255988</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">411</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">348.31</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">62.69</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">62.69</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>82</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-153561</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">165</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">139.83</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">25.17</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">25.17</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>83</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B006-2218</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">145</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">122.88</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">22.12</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">22.12</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>84</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-120286</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">218</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">184.75</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">33.25</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">33.25</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>85</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B009-222780</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">559</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">473.73</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">85.27</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">85.27</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>86</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-122360</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">547</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">463.56</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">83.44</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">83.44</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>87</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-253121</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">323</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">273.73</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">49.27</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">49.27</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>88</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B003-396140</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">199</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">168.64</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">30.36</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">30.36</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>89</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B006-346627</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">297</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">251.69</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">45.31</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">45.31</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>90</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-63963</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">360</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">305.08</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">54.92</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">54.92</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>91</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B002-116735</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">590</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">500</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">90</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">90</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>92</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B009-77356</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">337</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">285.59</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">51.41</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">51.41</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>93</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B007-68561</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">103</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">87.29</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">15.71</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">15.71</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>94</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B006-82979</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">440</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">372.88</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">67.12</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">67.12</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>95</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-247944</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">294</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">249.15</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">44.85</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">44.85</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>96</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-311239</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>2</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">173</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">146.61</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">26.39</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">26.39</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>97</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B009-258016</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">393</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">333.05</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">59.95</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">59.95</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>98</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B008-230886</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">192</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">162.71</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">29.29</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">29.29</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>99</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B001-62646</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>3</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">478</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">405.08</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">72.92</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">72.92</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine><sac:SummaryDocumentsLine>
+                  <cbc:LineID>100</cbc:LineID>
+                  <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                  <cbc:ID>B004-43132</cbc:ID>
+                  <cac:Status>
+                     <cbc:ConditionCode>1</cbc:ConditionCode>
+                  </cac:Status>                
+                  <sac:TotalAmount currencyID="PEN">326</sac:TotalAmount><sac:BillingPayment>
+                            <cbc:PaidAmount currencyID="PEN">276.27</cbc:PaidAmount>
+                            <cbc:InstructionID>01</cbc:InstructionID>
+                        </sac:BillingPayment><cac:TaxTotal>
+                      <cbc:TaxAmount currencyID="PEN">49.73</cbc:TaxAmount><cac:TaxSubtotal>
+                          <cbc:TaxAmount currencyID="PEN">49.73</cbc:TaxAmount>
+                          <cac:TaxCategory>
+                              <cac:TaxScheme>
+                                  <cbc:ID>1000</cbc:ID>
+                                  <cbc:Name>IGV</cbc:Name>
+                                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                              </cac:TaxScheme>
+                          </cac:TaxCategory>
+                      </cac:TaxSubtotal></cac:TaxTotal>
+              </sac:SummaryDocumentsLine></SummaryDocuments>
