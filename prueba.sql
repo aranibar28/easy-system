@@ -6268,8 +6268,8 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`idusuario`, `usuario`, `contrasena`, `tipo_usuario`, `estado`, `idempleado`) VALUES
-(1, 'PEDRO', '40751934', 1, 1, 1),
-(2, 'joseh', 'joseh', 2, 1, 11);
+(1, 'admin', 'admin', 1, 1, 1),
+(2, 'cajero', 'cajero', 2, 1, 11);
 
 -- --------------------------------------------------------
 
