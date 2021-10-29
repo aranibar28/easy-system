@@ -3505,7 +3505,7 @@ CREATE PROCEDURE `sp_insert_presentacion` (IN `p_nombre_presentacion` VARCHAR(12
   END IF;
 END$$
 
-CREATE PROCEDURE `sp_insert_producto` (IN `p_codigo_barra` VARCHAR(200), IN `p_nombre_producto` VARCHAR(175), IN `p_precio_compra` DECIMAL(8,2), IN `p_precio_venta` DECIMAL(8,2), IN `p_precio_venta_mayoreo` DECIMAL(8,2), IN `p_precio_venta_3` DECIMAL(8,2), IN `p_stock` DECIMAL(8,2), IN `p_stock_min` DECIMAL(8,2), IN `p_idcategoria` INT(11), IN `p_idmarca` INT(11), IN `p_idpresentacion` INT(11), IN `p_exento` TINYINT(1), IN `p_inventariable` TINYINT(1), IN `p_perecedero` TINYINT(1))  BEGIN
+CREATE PROCEDURE `sp_insert_producto` (IN `p_codigo_barra` VARCHAR(200), IN `p_nombre_producto` VARCHAR(175), IN `p_precio_compra` DECIMAL(8,2), IN `p_precio_venta` DECIMAL(8,2), IN `p_precio_venta_mayoreo` DECIMAL(8,2), IN `p_precio_venta_3` DECIMAL(8,2), IN `p_stock` DECIMAL(8,2), IN `p_stock_min` DECIMAL(8,2), IN `p_idcategoria` INT(11), IN `p_idmarca` INT(11), IN `p_idpresentacion` INT(11), IN `p_exento` TINYINT(1), IN `p_inventariable` TINYINT(1), IN `p_perecedero` TINYINT(1), IN `p_imagen` VARCHAR(250))  BEGIN
 
 	IF (p_inventariable = 1) THEN
 
@@ -3514,11 +3514,11 @@ CREATE PROCEDURE `sp_insert_producto` (IN `p_codigo_barra` VARCHAR(200), IN `p_n
 		INSERT INTO `producto`(`codigo_barra`, `nombre_producto`,
 		`precio_compra`, `precio_venta`, `precio_venta_mayoreo`,`precio_venta_3`, `stock`,
 		`stock_min`, `idcategoria`, `idmarca`, `idpresentacion`,`exento`,
-		`inventariable`, `perecedero`)
+		`inventariable`, `perecedero`, `imagen`)
 		VALUES (p_codigo_barra, p_nombre_producto,
 		p_precio_compra, p_precio_venta, p_precio_venta_mayoreo,p_precio_venta_3,p_stock,
 		p_stock_min, p_idcategoria, p_idmarca, p_idpresentacion,
-		p_exento, p_inventariable, p_perecedero);
+		p_exento, p_inventariable, p_perecedero, p_imagen);
 	 END IF;
 
      ELSE
@@ -3530,11 +3530,11 @@ THEN
 			INSERT INTO `producto`(`codigo_barra`, `nombre_producto`,
 			`precio_compra`, `precio_venta`, `precio_venta_mayoreo`,`precio_venta_3`,
 			`stock_min`, `idcategoria`, `idmarca`, `idpresentacion`,`exento`,
-			`inventariable`, `perecedero`)
+			`inventariable`, `perecedero`, `imagen`)
 			VALUES (p_codigo_barra, p_nombre_producto,
 			p_precio_compra, p_precio_venta, p_precio_venta_mayoreo,p_precio_venta_3,
 			0, p_idcategoria, p_idmarca, p_idpresentacion,
-			p_exento, p_inventariable, p_perecedero);
+			p_exento, p_inventariable, p_perecedero, p_imagen);
 		 END IF;
 
    END IF;
