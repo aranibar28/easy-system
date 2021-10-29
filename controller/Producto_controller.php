@@ -98,10 +98,10 @@
 		}
 
 		public function Insertar_Producto($codigo_barra, $nombre_producto, $precio_compra, $precio_venta, $precio_venta_mayoreo,
-		$precio_venta_3,$stock,$stock_min, $idcategoria, $idmarca, $idpresentacion, $exento, $inventariable, $perecedero){
+		$precio_venta_3,$stock,$stock_min, $idcategoria, $idmarca, $idpresentacion, $exento, $inventariable, $perecedero, $valor){
 
 			$cmd = ProductoModel::Insertar_Producto($codigo_barra, $nombre_producto, $precio_compra, $precio_venta, $precio_venta_mayoreo,
-			$precio_venta_3,$stock,$stock_min, $idcategoria, $idmarca, $idpresentacion, $exento, $inventariable, $perecedero);
+			$precio_venta_3,$stock,$stock_min, $idcategoria, $idmarca, $idpresentacion, $exento, $inventariable, $perecedero, $valor);
 
 		}
 

@@ -340,7 +340,7 @@ $objProducto = new Producto();
                 <h5 class="modal-title"><i class="icon-pencil7"></i> &nbsp; <span class="title-form"></span></h5>
             </div>
 
-            <form role="form" autocomplete="off" class="form-validate-jquery" id="frmModal">
+            <form role="form" autocomplete="off" class="form-validate-jquery" id="frmModal" enctype="multipart/form-data">
                 <div class="modal-body" id="modal-container">
                 <div class="alert alert-info alert-styled-left text-blue-800 content-group">
                         <span class="text-semibold">Estimado usuario</span>
@@ -489,8 +489,36 @@ if (is_array($filas) || is_object($filas)) {
         <input class="form-control" id="banner_captura" readonly="readonly" name="banner_captura" type="text" value="" />
     </div>
 </div>
+
+<div class="col-sm-3">
+                                <label>imagen xd<span class="text-danger">*</span></label>
+                                <input type="file" id="txtimagen" name="txtimagen" placeholder="EJ. 1.25"
+                                       class="touchspin-prefix" value="0" style="text-transform:uppercase;"
+                                       onkeyup="javascript:this.value = this.value.toUpperCase();"     >
+
+
+                            </div> 
+
+
                         </div>
         </div>
+
+<!-- ----------------------------------------- --> 
+
+
+
+
+<!-- 
+                            <div class="mb-4">
+    <input type="text" class="form-control"   name="datos" >
+</div> -->
+
+<!-- ----------------------------------------- --> 
+
+
+
+
+
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-3">

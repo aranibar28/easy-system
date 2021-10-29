@@ -31,6 +31,45 @@
 			$exento = trim($_POST['exento']);
 			$inventariable = trim($_POST['inventariable']);
 			$perecedero = trim($_POST['perecedero']);
+			// $valor=trim($_POST['imagen']);
+
+
+
+
+
+
+			// $filename='facto.png';
+			list($ancho, $alto) = getimagesize($_FILES["imagen"]["tmp_name"]);
+			$nuevoAncho = 500;
+			$nuevoAlto = 500;
+			
+			
+			$directorio = "view/img/productos/";
+			if(!file_exists($directorio)){
+			
+			mkdir($directorio, 0777, true);  
+			}
+			$aleatorio = mt_rand(100, 999);
+			// $valor = "view/img/productos/" .$cod . "/" . $aleatorio . ".png";
+			$valor = "view/img/productos/". $aleatorio . ".png";
+			
+			
+			$destino = imagecreatetruecolor($nuevoAncho, $nuevoAlto);
+			$origen = imagecreatefrompng($_FILES["imagen"]["tmp_name"]);
+			
+			// imagecopyresized($destino, $origen, 0, 0, 0, 0, $nuevoAncho, $nuevoAlto, $ancho, $alto);
+			// imagecopyresized($destino, $origen, 0, 0, 0, 0, 500, 500, $ancho, $alto);
+			imagecopyresized($destino, $origen, 0, 0, 0, 0, 500, 500, $ancho, $alto);
+			
+			
+			imagepng($destino, $valor);
+			// imagepng($destino, $origen);
+			
+			// echo $valor;
+
+
+
+				// $valor="hola";
 
 			if($idmarca == '')
 			{
@@ -43,7 +82,7 @@
 			case 'Registro':
 				$funcion->Insertar_Producto($codigo_barra,$nombre_producto,$precio_compra,$precio_venta,
 				$precio_venta_mayoreo,$precio_venta_3,$stock,$stock_min,
-				$idcategoria,$idmarca,$idpresentacion,$exento,$inventariable,$perecedero);
+				$idcategoria,$idmarca,$idpresentacion,$exento,$inventariable,$perecedero,$valor);
 			break;
 
 			case 'Edicion':

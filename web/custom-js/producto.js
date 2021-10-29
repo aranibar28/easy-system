@@ -376,6 +376,7 @@ function openBarcode(codigo_barra,codigo_interno,nombre_producto,idproducto){
       }
 
       $('#txtProductoP').val(nombre_producto);
+      
 
       $('#txtCodigoBarraP').prop( "disabled" ,  true);
       $('#txtProductoP').prop( "disabled" ,  true);
@@ -392,11 +393,11 @@ function openBarcode(codigo_barra,codigo_interno,nombre_producto,idproducto){
 
 function newProducto()
  {
-    openProducto('nuevo',null,null,null,null,null,null,null,null,null,null);
+    openProducto('nuevo',null,null,null,null,null,null,null,null,null,null,null);
     $('#modal_iconified').modal('show');
  }
 function openProducto(action, idproducto, codigo_interno, codigo_barra, nombre_producto, precio_compra, precio_venta, precio_venta_mayoreo, precio_venta_3, stock, stock_min, idcategoria, idmarca,
-idpresentacion, estado, exento, inventariable, perecedero)
+idpresentacion, estado, exento, inventariable, perecedero,imagen)
 
  {
       var mySwitch = new Switchery($('#chkEstado')[0], {
@@ -437,6 +438,8 @@ idpresentacion, estado, exento, inventariable, perecedero)
       $("#cbCategoria").select2("val", "All");
       $("#cbMarca").select2("val", "All");
       $("#cbPresentacion").select2("val", "All");
+      $('#txtimagen').val('');
+
       setSwitchery(mySwitch, true);
       setSwitchery(mySwitch2, false);
       setSwitchery(mySwitch3, false);
@@ -458,6 +461,7 @@ idpresentacion, estado, exento, inventariable, perecedero)
       $('#chkPerece').prop( "disabled" , false);
       $('#chkExento').prop( "disabled" , false);
       $('#chkInven').prop( "disabled" , false);
+      $('#txtimagen').prop( "disabled" , false);
 
 
       $('#btnEditar').hide();
@@ -675,6 +679,7 @@ function enviar_frm()
   var exento = $('#chkExento').is(':checked') ? 1 : 0;
   var perecedero = $('#chkPerece').is(':checked') ? 1 : 0;
   var inventariable = $('#chkInven').is(':checked') ? 1 : 0;
+  var imagen=$("#txtimagen").val();
 
   if (idmarca == null)
   {
@@ -683,7 +688,7 @@ function enviar_frm()
 
   var dataString='proceso='+proceso+'&id='+id+'&codigo_barra='+codigo_barra+'&nombre_producto='+nombre_producto+'&precio_compra='+precio_compra;
   dataString+='&precio_venta='+precio_venta+'&precio_venta_mayoreo='+precio_venta_mayoreo+'&precio_venta_3='+precio_venta_3+'&stock='+stock+'&stock_min='+stock_min+'&idcategoria='+idcategoria;
-  dataString+='&idmarca='+idmarca+'&idpresentacion='+idpresentacion+'&estado='+estado+'&exento='+exento+'&inventariable='+inventariable+'&perecedero='+perecedero;
+  dataString+='&idmarca='+idmarca+'&idpresentacion='+idpresentacion+'&estado='+estado+'&exento='+exento+'&inventariable='+inventariable+'&perecedero='+perecedero+'&imagen='+imagen;
 
   $.ajax({
      type:'POST',
